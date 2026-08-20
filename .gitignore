@@ -1,6 +1,23 @@
+# system.trash
 bin/
 obj/
 .env
 .DS_Store
 *.log
-deploy.ps1
+
+# system.isolation
+*
+
+# system.whitelist
+!index.html
+!404.html
+!.htaccess
+!LICENSE
+!README.md
+!notranslate
+!.gitignore
+!robots.txt
+!sitemap.xml
+!passport.json
+!manifest.json
+!.sourcecraft/

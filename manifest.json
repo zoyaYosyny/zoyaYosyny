@@ -1,0 +1,18 @@
+﻿{
+  "owner": "© 2026 | 44434448-4846-4848-4644-464847464446 | CC BY 4.0",
+  "canonical_uri": "https://zoyayosyny.ru",
+  "type": "Manifest",
+  "registry": [
+    {
+      "id": null,
+      "parent_id": null,
+      "temp_id": "temp-track-01",
+      "parent_temp_id": null,
+      "node_type": "virtual_concept",
+      "status": "draft",
+      "title": "Архитектурный и персонажный паспорт фреймворка andaMonda",
+      "description": "Многоязычный ТРИЗ-паспорт, промпт-режим Сказка (Әкият).",
+      "body": {}
+    }
+  ]
+}
