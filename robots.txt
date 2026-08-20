@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /LICENSE
+Allow: /passport.json
+
+Sitemap: https://zoyayosyny.ru

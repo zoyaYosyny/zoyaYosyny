@@ -1,0 +1,1 @@
+version: "1"`npolicies:`n  - name: "Protect Main Branch"`n    target: "default_branch"`n    rules:`n      - prevent_force_push`n      - prevent_deletion
