@@ -11,4 +11,4 @@ Allow: /index.html
 Allow: /404.html
 
 # Указываем роботам путь к карте сайта
-Sitemap: https://zoyayosyny.ru
+Sitemap: https://zoyayosyny.ru/sitemap.xml
