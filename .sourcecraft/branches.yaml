@@ -1,1 +1,9 @@
-version: "1"`npolicies:`n  - name: "Protect Main Branch"`n    target: "default_branch"`n    rules:`n      - prevent_force_push`n      - prevent_deletion
+version: 1
+policies:
+  - branches:
+      - main
+    rules:
+      prevent_force_push: true
+      prevent_deletion: true
+      override_allowed: false
+      linear_history_required: true
