@@ -1,14 +1,4 @@
 User-agent: *
+Disallow:
 
-# Закрываем весь сайт от случайного сканирования и кражи структуры
-Disallow: /
-
-# БЕЛЫЙ СПИСОК: Открываем доступ строго к легальным файлам и манифестам
-Allow: /LICENSE
-Allow: /passport.json
-Allow: /manifest.json
-Allow: /index.html
-Allow: /404.html
-
-# Указываем роботам путь к карте сайта
-Sitemap: https://zoyayosyny.ru/sitemap.xml
+Sitemap: https://zoyayosyny.ru
