@@ -1,5 +1,9 @@
-﻿# 1. ЗАЩИТА СЕРВЕРА REGRU: Перенаправление всех ошибок на ваш чертеж
-ErrorDocument 404 /404.html
+﻿RewriteEngine On
+RewriteBase /
 
-# 2. STEALTH-РЕЖИМ: Блокировка скачивания скрытой папки базы данных .git с хостинга
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /404.html [L,E=ErrorDocument:404]
+
+ErrorDocument 404 /404.html
 RedirectMatch 404 /\.git
