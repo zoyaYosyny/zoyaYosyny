@@ -11,6 +11,7 @@ obj/
 # system.whitelist
 !index.html
 !404.html
+!404.php
 !.htaccess
 !LICENSE
 !README.md
