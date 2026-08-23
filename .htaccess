@@ -3,4 +3,6 @@ RewriteBase /
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^.*$ /404.html [L]
+RewriteRule ^.*$ /404.html [R=404,L]
+
+RedirectMatch 404 /\.git
