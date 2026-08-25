@@ -10,7 +10,7 @@ obj/
 
 # system.whitelist
 !index.html
-!404.html
+!804.html
 !.htaccess
 !LICENSE
 !README.md
