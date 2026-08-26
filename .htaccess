@@ -1,2 +1,5 @@
 ﻿ErrorDocument 404 /804.html
+ErrorDocument 403 /804.html
 RedirectMatch 404 /\.git
+Options -Indexes
+AddDefaultCharset UTF-8
