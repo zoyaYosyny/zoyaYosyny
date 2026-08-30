@@ -6,7 +6,7 @@
     <meta name="google" content="notranslate">
     <meta name="yandex" content="notranslate">
     <link class="notranslate" rel="canonical" href="https://zoyayosyny.ru">
-    <title translate="no" class="notranslate">Зөя Юсыны</title>
+    <title translate="no" class="notranslate">Юлдашлар</title>
     <style>
         * { box-sizing: border-box; }
         body {
@@ -16,6 +16,7 @@
             margin: 0; padding: 0;
             display: flex; flex-direction: column;
             justify-content: space-between; min-height: 100vh;
+            user-select: none; -webkit-user-select: none;
         }
         header, footer { 
             width: 100%; 
@@ -27,19 +28,20 @@
             position: relative;
             padding: 0 20px;
         }
-        header { bottom: 0; }
         footer { 
             font-size: 12px; 
             font-weight: 600; 
             color: #636e72; 
             letter-spacing: 0.3px;
+            flex-direction: column;
+            gap: 4px;
         }
         .logo-link { text-decoration: none; display: inline-block; }
         .logo { font-size: 42px; font-weight: 800; color: #1a252f; margin: 0; line-height: 1; }
-        main { flex: 1; display: flex; justify-content: center; align-items: center; padding: 40px 20px; }
+        main { flex: 1; display: flex; justify-content: center; align-items: center; padding: 40px 20px; cursor: default; }
         .status-box { width: 100%; max-width: 800px; text-align: center; }
         .status-title { font-size: 32px; font-weight: 700; color: #2c3e50; margin: 0; line-height: 1.3; }
-        .seo-link { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+        .footer-brand { font-size: 13px; color: #2c3e50; font-weight: 700; }
         
         .morse-line {
             position: absolute;
@@ -58,23 +60,22 @@
 <body>
     <header>
          <a href="/" class="logo-link">
-            <div class="logo notranslate" translate="no">Зөя Юсыны</div>
+            <h1 class="logo notranslate" translate="no">Юлдашлар</h1>
          </a>
         <svg class="morse-line"><line x1="0" y1="1" x2="100%" y2="1" /></svg>
     </header>
-    <main>
-        <span class="seo-link">Зөя Юсыны</span>
+    <main ondblclick="window.location.href='/kzn.xml';">
         <div class="status-box">
             <p class="status-title notranslate" translate="no">Монда әле ниләр булыр...</p>
         </div>
     </main>
     <footer>
         <svg class="morse-line"><line x1="0" y1="1" x2="100%" y2="1" /></svg>
-        <div class="notranslate" translate="no">[ © 2026 | 44434448-4846-4848-4644-464847464446 | CC BY 4.0 ]</div>
+        <div class="footer-brand notranslate" translate="no">2026 © Зөя Юсыны</div>
+        <div class="notranslate" translate="no">[ 44434448-4846-4848-4644-464847464446 | CC BY 4.0 ]</div>
     </footer>
 </body>
 </html>
-
 
 
 
