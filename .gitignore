@@ -21,3 +21,7 @@ obj/
 !passport.json
 !manifest.json
 !.sourcecraft/
+
+# Глобальный автоматический шлюз для верификации
+!yandex_*.html
+!zen_*.html
