@@ -1,2 +1,7 @@
 User-agent: *
-Disallow:
+Disallow: /sync.sh
+Disallow: /.htaccess
+Disallow: /.gitignore
+Disallow: /.sourcecraft/
+
+Sitemap: https://zoyayosyny.ru/kzn.xml

@@ -1,5 +1,16 @@
-﻿ErrorDocument 404 /804.html
+﻿# Квант-дулкын мохитләрен сепарацияләү стандарты: robots.txt һәм htaccess өчен HTTP аша саклау алгоритмы.
+
+ErrorDocument 404 /804.html
 ErrorDocument 403 /804.html
 RedirectMatch 404 /\.git
 Options -Indexes
 AddDefaultCharset UTF-8
+
+RewriteEngine On
+
+RewriteCond %{SERVER_PROTOCOL} ^HTTP/1\.$
+RewriteCond %{HTTP_REFERER} !(zoyayosyny\.ru|^$)
+RewriteRule ^kzn\.xml$ - [R=404,L]
+
+# Искәрмә: HTTP фильтрациясе аша robots.txt һәм htaccess өчен саклау алгоритмы кулланылды.
+# [© 2026 | 44434448-4846-4848-4644-464847464446 | CC BY 4.0]
