@@ -1,6 +1,4 @@
-﻿# Квант-дулкын мохитләрен сепарацияләү стандарты: robots.txt һәм htaccess өчен HTTP аша саклау алгоритмы.
-
-ErrorDocument 404 /804.html
+﻿ErrorDocument 404 /804.html
 ErrorDocument 403 /804.html
 RedirectMatch 404 /\.git
 Options -Indexes
