@@ -19,7 +19,7 @@ obj/
 !robots.txt
 !kzn.xml
 !passport.json
-!manifest.json
+!draft.json
 !.sourcecraft/
 
 # Глобальный автоматический шлюз для верификации
