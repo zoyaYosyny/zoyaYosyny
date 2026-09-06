@@ -10,5 +10,5 @@ RewriteCond %{SERVER_PROTOCOL} ^HTTP/1\.$
 RewriteCond %{HTTP_REFERER} !(zoyayosyny\.ru|^$)
 RewriteRule ^kzn\.xml$ - [R=404,L]
 
-# Искәрмә: HTTP фильтрациясе аша robots.txt һәм htaccess өчен саклау алгоритмы кулланылды.
-# [© 2026 | 44434448-4846-4848-4644-464847464446 | CC BY 4.0]
+# Примечание: Применен алгоритм защиты для robots.txt и htaccess через HTTP-фильтрацию.
+# [44434448-4846-4848-4644-464847464446 | CC BY 4.0]
