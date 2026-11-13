@@ -1,15 +1,12 @@
 ﻿ErrorDocument 404 /804.html
 ErrorDocument 403 /804.html
-RedirectMatch 404 /\.git
+RedirectMatch 404 /\.(?!well-known)
 Options -Indexes
 AddDefaultCharset UTF-8
 
 RewriteEngine On
+RewriteRule ^sync\.sh$ - [R=404,L]
 
-RewriteCond %{SERVER_PROTOCOL} ^HTTP/1\.$
-RewriteCond %{HTTP_REFERER} !(zoyayosyny\.ru|^$)
-RewriteRule ^kzn\.xml$ - [R=404,L]
-RewriteRule ^sync.sh$ - [F,L]
+AddCharset UTF-8 .json .xml
 
-# Примечание: Применен алгоритм защиты для robots.txt и htaccess через HTTP-фильтрацию.
 # [44434448-4846-4848-4644-464847464446 | CC BY 4.0]
