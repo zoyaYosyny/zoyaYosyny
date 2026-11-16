@@ -2,12 +2,12 @@
 
 **Статус:** Ведется активная разработка (*draft*).
 
-Открытый **Открытый движок по бережливой обработке, генерации и применению знаний в виде реестра моделей и паттернов**.
+**Открытый движок по бережливой обработке, генерации и применению знаний в виде реестра моделей и паттернов**.
 
 * **Канонический URI:** https://zoyayosyny.ru
 * **Основной репозиторий:** https://sourcecraft.dev/zoyayosyny/zoyayosyny
-* **Реестр моделей и паттернов (черновик):** [zoyayosyny.ru/draft.json](https://zoyayosyny.ru) | [`./draft.json`](./draft.json)
-* **Паспорт проекта:** [zoyayosyny.ru/passport.json](https://zoyayosyny.ru) | [`./passport.json`](./passport.json)
+* **Реестр моделей и паттернов (черновик):** [zoyayosyny.ru/draft.json](https://zoyayosyny.ru/draft.json) | [`./draft.json`](./draft.json)
+* **Паспорт проекта:** [zoyayosyny.ru/passport.json](https://zoyayosyny.ru/passport.json) | [`./passport.json`](./passport.json)
 * **Лицензия:** [`LICENSE`](./LICENSE) (CC BY 4.0 + Addendum)
 
 ---
